@@ -1,6 +1,6 @@
 
 public class NBody {
-	
+	//testing changes 
 	public static void main(String[] args){
 		double T = 157788000.0;
 		double dt = 25000.0;
