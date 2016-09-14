@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+
 public class NBody {
 	
 	public static void main(String[] args){
@@ -24,6 +25,10 @@ public class NBody {
 		                      planets[i].myXVel, planets[i].myYVel, 
 		                      planets[i].myMass, planets[i].myFileName);	
 		}
+		
+		StdDraw.setScale(-radius, radius);
+		StdDraw.picture(radius/2, radius/2, "images/starfield.jpg");
+		
 	}
 	
 	public static double readRadius(String fname){
