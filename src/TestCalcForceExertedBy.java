@@ -31,7 +31,7 @@ public class TestCalcForceExertedBy {
 
     /**
      *  Checks the Planet class to make sure calcForceExertedBy works.
-     */
+     */ 
     private static void checkCalcForceExertedBy() {
         System.out.println("Checking calcForceExertedBy...");
 
