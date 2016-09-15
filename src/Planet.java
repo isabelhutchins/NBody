@@ -84,5 +84,9 @@ public String myFileName;
 		this.myYPos = this.myYPos + time * this.myYVel;
 	}
 	
+	public void draw(){
+		StdDraw.picture(this.myXPos, this.myYPos, "images/" + this.myFileName);
+	}
+	
 	
 }
