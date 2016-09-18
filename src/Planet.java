@@ -1,5 +1,4 @@
 
-
 public class Planet {
 public double myXPos;
 public double myYPos;
